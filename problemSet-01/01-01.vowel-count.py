@@ -13,6 +13,8 @@ Write a program that counts up the number of vowels contained in the string s. V
 Note: Do not include input statements or define variables we told you would be given. Our automated testing will provide values for you.
 """
 
+# test sting
+s = 'phngluinglwnafhcthulhurlyehwgahnaglfhtagn'
 # vowel count
 vowelNumb = 0
 
