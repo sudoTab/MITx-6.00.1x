@@ -21,8 +21,8 @@ vowelNumb = 0
 # the for loop
 for letter in s:
     # Block: if statement
-    if (str(letter) == 'a' or str(letter) == 'e' or str(letter) == 'i' or str(letter) == 'o' or str(letter) == 'u'):
-        # plus step vowel count
+    if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
+        # add step vowel count one
         vowelNumb += 1
 # once all letters in s are evaluated, loop will exit here and print the following.
-print('Number of vowels: ', int(vowelNumb))
+print('Number of vowels: ' + str(vowelNumb))
