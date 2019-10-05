@@ -4,29 +4,34 @@
 Created on Sun Sep 29 13:05:55 2019
 
 @author: sodatab
+
+MITx: 6.00.1x
 """
+
 """
+01-02 Bob Count
+----------------
 Assume s is a string of lower case characters.
 
 Write a program that prints the number of times the string 'bob' occurs in s.
 """
 
-## test sting
+"""Answer script:"""
+## Test string
 s = 'phngluingboblwnafhcthulhurboobobooblyehwgahnaglfhtagnbobob'
 
-# number of bobs
+# Number of bobs
 bobNumb = 0
-# length of s
+# Length of s
 l = len(s)
 
-# the for loop
-# add 1 to l because range stop is not inclusive of itself.
+# The 'for' loop
+# add '1' to 'l' because range stop is not inclusive of itself.
 for i in range(l+1):
-    # Block: if statement
-    # if slice s[start at i , stop at (i+3)] is equal to 'bob'
+    # Block 01: 'if' statement
+    # If slice s[start at i , stop at (i+3)] is equal to 'bob'
     if s[i:(i+3)] == 'bob':
-        # add step the bob count by one.
+        # Add step the bob count by '1'
         bobNumb += 1
-# end of our for loop. print the number of bobs.
+# End of our 'for' loop. Print the number of 'bob's
 print('Number of times bob occurs is: ', str(bobNumb))
-
