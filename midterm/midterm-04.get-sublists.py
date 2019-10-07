@@ -28,3 +28,4 @@ def getSublists(L, n):
     for i in range(len(L)-n+1):
         list_of_sublists.append(L[i:i+n])
     return list_of_sublists
+
