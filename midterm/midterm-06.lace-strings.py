@@ -59,3 +59,4 @@ def laceStringsRecur(s1, s2):
         else:
             return helpLaceStrings(s1[1:], s2[1:], out+s1[0]+s2[0])
     return helpLaceStrings(s1, s2, '')
+
