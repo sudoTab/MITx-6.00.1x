@@ -54,3 +54,4 @@ def closest_power(base, num):
             exponent += 1
     
     return exponent
+
