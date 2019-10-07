@@ -35,3 +35,4 @@ def keysWithValue(aDict, target):
     return sorted(answer)
 
 print(keysWithValue({0: 0, 8: 2, 10: 0, 6: 2, 7: 0}, 0))
+
