@@ -33,3 +33,4 @@ for letter in s:
         vowelNumb += 1
 # Once all letters in 's' are evaluated, loop will exit here and print the followig
 print('Number of vowels: ' + str(vowelNumb))
+
